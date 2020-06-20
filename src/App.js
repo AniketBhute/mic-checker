@@ -48,7 +48,7 @@ class App extends React.Component {
         <div className="controls">
           <button className="micButton" onClick={this.toggleMicrophone}  >
           {/* {this.state.audio ? 'Stop microphone' : 'Get microphone input'} */}
-          <img src="https://img.icons8.com/flat_round/64/000000/microphone--v1.png"/>
+          <img src={this.state.audio ? 'https://img.icons8.com/officel/80/000000/shutdown.png':'https://img.icons8.com/ultraviolet/80/000000/shutdown.png' } />
           </button>
         </div>
         {this.state.audio ? <AudioAnalyser audio={this.state.audio} /> : ''}
