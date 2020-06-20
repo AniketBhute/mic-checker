@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.micButton{
+  background-color: transparent;
+  border-style: hidden;
+  margin-top: 309px;
+  margin-left: -34px;
+  position: absolute;
+  border: none;
+  outline:none;
+}
+
+
